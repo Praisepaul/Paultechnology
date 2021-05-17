@@ -1554,6 +1554,9 @@ responsive
   .about-us .left-image {
     bottom: -280px;
   }
+  .about-me{
+    display: none;
+  }
   .our-blog .right-list {
     margin-left: 0px;
   }
