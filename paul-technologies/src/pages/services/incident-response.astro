@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+---
+
+<BaseLayout title="Incident Response | Paul Technologies">
+  <Header />
+
+  <main class="max-w-4xl mx-auto px-6 py-20">
+    <h1 class="text-3xl font-bold mb-6">Incident Response</h1>
+
+    <p class="text-gray-400 mb-8">
+      When incidents happen, speed and clarity matter. Poor response increases
+      damage, downtime, and long-term risk.
+    </p>
+
+    <h2 class="text-xl font-semibold mb-3">Response Services</h2>
+    <ul class="list-disc list-inside text-gray-400 mb-8">
+      <li>Compromise assessment</li>
+      <li>Containment & eradication</li>
+      <li>Root cause analysis</li>
+      <li>Post-incident reporting</li>
+    </ul>
+
+    <h2 class="text-xl font-semibold mb-3">Outcome</h2>
+    <p class="text-gray-400 mb-8">
+      You get a clear understanding of what happened, what was affected,
+      and how to prevent recurrence.
+    </p>
+
+    <a href="/contact" class="inline-block bg-primary text-black px-6 py-3 rounded-md">
+      Get Immediate Help
+    </a>
+  </main>
+</BaseLayout>
